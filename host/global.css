@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+    background-image:url("img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin:0px;
+}
+
+#container {
+    width:161.8vh;
+    height:100vh;
+    margin-left:calc(50vw - 80.9vh);
+}
+
+#top {
+    background-color:rgb(255, 255, 255, 0.9);
+    height:15%;
+    width:100%;
+}
+
+#logo {
+    height:100%;
+}
+
+#ral-tal {
+    margin-left:1%;
+    position:relative;
+    bottom:13%;
+    height:110%;
+}
+
+#navbar {
+    font-family: 'Nunito', sans-serif;
+    background-color:rgb(13, 39, 52, 0.9);
+    height:4%;
+    width:100%;
+    overflow: hidden;
+    position:relative;
+}
+
+#navbar a{
+    float:left;
+    padding-left:1ex;
+    padding-right:1.5ex;
+    transition: color 200ms ease;
+    color:white;
+    position: relative;
+    top: 0.3ex;
+    text-decoration:none;
+}
+
+#navbar a:hover{
+    color:rgb(80, 152, 148);
+}
+
+#bot{
+    height:81%;
+    width:100%;
+}
+
+#navtree {
+    font-family: 'Nunito', sans-serif;
+    background-color:rgb(80, 152, 148, 0.9);
+    float:left;
+    width:30%;
+    height:100%;
+}
+
+#navtree > ul{
+    margin-top:8%;
+    padding-left:11%;
+}
+
+#navtree ul{
+    list-style-type:none;
+}
+
+#navtree a{
+    text-decoration:none;
+    transition: color 200ms ease;
+    color:black;
+}
+
+#navtree a:hover{
+    color:#103714;
+}
+
+#content  {
+    background-color:rgb(255, 255, 255, 0.9);
+    float:left;
+    width:70%;
+    height:100%;
+    font-family: 'Libre Baskerville', serif;
+    color:black;
+    text-align:justify;
+    font-size:small;
+}
+
+#content-text{
+    padding-left:7%;
+    padding-right:10%;
+    padding-top:3%;
+}
+
+

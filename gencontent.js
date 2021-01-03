@@ -1,3 +1,5 @@
+// Commented because very destructive and should only be run once.
+/*
 var fs = require("fs");
 var struct = require("./host/struct.json");
 
@@ -25,3 +27,4 @@ function route(path, obj){
 }
 
 route("/", struct);
+*/

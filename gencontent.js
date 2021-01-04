@@ -1,4 +1,5 @@
 // Commented because very destructive and should only be run once.
+// Also is outdated and wouldn't work with the current file structure.
 /*
 var fs = require("fs");
 var struct = require("./host/struct.json");

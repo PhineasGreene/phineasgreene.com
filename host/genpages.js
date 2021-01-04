@@ -1,13 +1,13 @@
 var fs = require("fs");
-var struct = require("./struct.json");
+var struct = require("./public/struct.json");
 
 function constructPage(contentPath){
     fs.readFile(contentPath, 'utf8', function(err1, data1){
         if(err1) throw err1;
         
         var templateName = data1.match(/<!--TEMPLATE:(.*)-->/)[1];
-        var templatePath = `${__dirname}/html/templates/${templateName}`;
-        var pagePath     = contentPath.replace("content", "html");
+        var templatePath = `${__dirname}/templates/${templateName}`;
+        var pagePath     = contentPath.replace("content", "public");
 
         fs.readFile(templatePath, 'utf8', function(err2, data2){
             if(err2) throw err2;

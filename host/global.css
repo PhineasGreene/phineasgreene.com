@@ -35,10 +35,12 @@ body {
 #navbar {
     font-family: 'Nunito', sans-serif;
     background-color:rgb(13, 39, 52, 0.9);
-    height:4%;
+    height:3%;
     width:100%;
+    padding-top:0.25%;
     overflow: hidden;
-    position:relative;
+    display: block;
+    vertical-align: middle;
 }
 
 #navbar a{
@@ -47,8 +49,6 @@ body {
     padding-right:1.5ex;
     transition: color 200ms ease;
     color:white;
-    position: relative;
-    top: 0.3ex;
     text-decoration:none;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 #bot{
-    height:81%;
+    height:82%;
     width:100%;
 }
 

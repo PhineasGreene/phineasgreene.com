@@ -31,3 +31,4 @@ for(let i = 0; i < files.length; i++){
 }
 
 app.listen("5000");
+console.log("Listening on port 5000");

@@ -2,8 +2,10 @@ var struct = require("./public/struct.json");
 var fs = require("fs");
 var express = require("express");
 var app = express();
+var morgan = require("morgan")
 
-app.use(express.static('public', {extensions:["html", "js", "jpg", "png", "gif", "svg", "css"]}))
+app.use(morgan("short"));
+app.use(express.static('public', {extensions:["html", "js", "jpg", "png", "gif", "svg", "css"]}));
 
 // routing of index webpages
 function route(path, obj){

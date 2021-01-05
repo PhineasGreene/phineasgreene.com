@@ -4,7 +4,7 @@ var express = require("express");
 var app = express();
 var morgan = require("morgan")
 
-app.use(morgan(":remote-user - :method :url :status :res[content-length] - :response-time ms"));
+app.use(morgan("tiny"));
 app.use(express.static('public', {extensions:["html", "js", "jpg", "png", "gif", "svg", "css"]}));
 
 // routing of index webpages
